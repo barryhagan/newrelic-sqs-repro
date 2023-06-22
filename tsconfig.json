@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "outDir": "lib",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "strict": true,
+        "declaration": true,
+        "declarationMap": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "removeComments": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "ES2020",
+        "lib": [
+            "ES2021"
+        ],
+        "sourceMap": true,
+        "composite": true,
+        "types": [
+            "node"
+        ],
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./lib"
+    ]
+}
